@@ -4,7 +4,7 @@ import Home from "./pages/home/home";
 import Question1 from "./pages/question1/question1";
 import Question2 from "./pages/question2/question2";
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <BrowserRouter>
@@ -16,6 +16,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
